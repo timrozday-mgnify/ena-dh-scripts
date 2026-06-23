@@ -1,12 +1,14 @@
 # ena-dh-scripts
 
+**Superseded by [ena-submission-toolkit](https://github.com/timrozday-mgnify/ena-submission-toolkit)**,
+a properly packaged successor (`src/` layout, namespaced imports, unified
+`ena-submission-toolkit` CLI). No consumers depend on this repo anymore —
+[mimicc-ena-submission-assistant](https://github.com/timrozday-mgnify/mimicc-ena-submission-assistant)
+has migrated to `ena-submission-toolkit`. Kept for history; not maintained.
+
 ENA sample/study submission scripts: build a manifest from sample/study
 records, validate it against ENA's XSDs, and submit it via the Webin REST
 API v2.
-
-Used by [mimicc-ena-submission-assistant](https://github.com/timrozday-mgnify/mimicc-ena-submission-assistant)
-(`server/ena_service.py`), pinned as a git dependency in its
-`requirements.txt`.
 
 This is a slimmed extraction of the submission-scripts surface from
 [ena-submission-dataharmonizer](https://github.com/timrozday-mgnify/ena-submission-dataharmonizer)
